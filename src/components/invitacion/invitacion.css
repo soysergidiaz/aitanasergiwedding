@@ -1,0 +1,55 @@
+#invitacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #800020;
+    color: gold;
+}
+
+#invitacion .title-invitation {
+  font-family: "Style Script", cursive;
+  margin-top: 20px;
+  width: 70%;
+  margin: 60px auto 0 ;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 200;
+  line-height: 1;
+}
+
+#invitacion p {
+    margin: 10px auto 0;
+    text-align: center;
+    width: 85%;
+    color: white;
+    border-bottom: 1px solid gold;
+    padding-bottom: 30px;
+}
+
+#invitacion .title-save-the-date {
+    margin-top: 30px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+#invitacion .save-the-date {
+    margin: 10px auto 0;
+    background-color: white;
+    width: 82%;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+#invitacion .save-the-date h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#invitacion .save-the-date .options {
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+}

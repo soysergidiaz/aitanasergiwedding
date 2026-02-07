@@ -3,11 +3,11 @@ import { useState, useEffect } from 'react';
 
 export default function Countdown () {
 
-    const fechaBoda = new Date("2026-09-25T17:30").getTime();
+    const fechaBoda = new Date("2026-09-25T17:30");
     const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
     function calculateTimeLeft() {
-        const difference = fechaBoda - +new Date();
+        const difference = fechaBoda - new Date();
         let timeLeft = {};
 
         if (difference > 0) {
@@ -29,10 +29,6 @@ export default function Countdown () {
 
         return () => clearTimeout(timer);
     })
-
-    console.log(timeLeft);
-
-
 
     return (
         <div className="countdown">
